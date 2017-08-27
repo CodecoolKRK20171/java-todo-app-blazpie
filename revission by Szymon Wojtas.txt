@@ -1,0 +1,16 @@
+Code revision:
+
+TodoItem file:
+
+	10: implement Comparable interface: good practice.
+	15: Why use to TodoList object here? OOP relationships are getiing complicated by this.
+		If you have to use it: think about changing name: myList can be missunderstaing.
+	20 - 40: Overloded constructors. It is good practice. But are you sure, you need them all?
+	95: method to save: Nice idea.
+	
+TodoList:
+	
+	15 - 29: these constructors can be dangerous. Maybe, if construcotur without String in parameter will be used,
+		maybe name shuld be assigned by default?
+	97. toString method: think about string formatting (String.formatting) in opposition to overloded string adding.
+
